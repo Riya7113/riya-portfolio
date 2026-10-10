@@ -1,0 +1,22 @@
+{
+  "name": "riya-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "server": "node server/index.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "express": "latest",
+    "mongoose": "latest",
+    "cors": "latest",
+    "dotenv": "latest"
+  },
+  "devDependencies": { "tailwindcss": "latest", "@tailwindcss/vite": "latest" }
+}
